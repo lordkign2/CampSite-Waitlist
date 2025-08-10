@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#10B981" />
+    <title>CampSite – Offline</title>
+    <link rel="icon" type="image/png" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon-180.png" />
+    <style>
+      :root { --green: #10B981 }
+      html, body { height: 100% }
+      body {
+        margin: 0;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Noto Sans, "Apple Color Emoji", "Segoe UI Emoji";
+        background: #fafafa;
+        color: #111827;
+        display: grid;
+        place-items: center;
+      }
+      .card {
+        max-width: 28rem;
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 1rem;
+        padding: 1.25rem 1.25rem 1rem;
+        box-shadow: 0 10px 20px rgba(0,0,0,.04);
+      }
+      .logo {
+        display: inline-flex;
+        align-items: center;
+        gap: .5rem;
+        font-weight: 700;
+      }
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: .5rem;
+        background: #FEF3C7;
+        padding: .25rem .5rem;
+        border-radius: 999px;
+        font-size: .75rem;
+        margin-top: .75rem;
+      }
+      .btn {
+        display: inline-flex; align-items: center; justify-content: center;
+        background: var(--green);
+        color: #fff; border-radius: 999px; padding: .5rem .9rem;
+        text-decoration: none; font-weight: 600;
+        margin-top: .75rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card" role="main" aria-labelledby="title">
+      <div class="logo">
+        <span style="background: var(--green); color: #fff; width: 28px; height: 28px; border-radius: 999px; display: grid; place-items: center;">KS</span>
+        <span>Camp<span style="color: var(--green)">Site</span></span>
+      </div>
+      <h1 id="title" style="margin:.75rem 0 0">You're offline</h1>
+      <p style="color:#4B5563; margin:.5rem 0 0">
+        No internet connection detected. You can still browse cached pages and images.
+        We’ll reconnect automatically when you’re back online.
+      </p>
+      <div class="badge">
+        <span style="width:8px;height:8px;border-radius:999px;background:var(--green);display:inline-block;"></span>
+        Offline support enabled
+      </div>
+      <a class="btn" href="/">Try again</a>
+    </main>
+  </body>
+</html>
