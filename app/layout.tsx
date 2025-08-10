@@ -6,7 +6,7 @@ import "./globals.css"
 import { PWARegister } from "@/components/pwa-register"
 
 export const metadata: Metadata = {
-  title: "CampSite – Housing",
+  title: "KEAgents – Housing",
   description: "Verified apartments for Students and workers around Nigeria.",
   generator: "LDS",
   manifest: "/manifest.webmanifest",

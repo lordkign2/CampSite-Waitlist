@@ -70,7 +70,7 @@ export function FeatureCards(props: { audience?: Audience }) {
           },
           {
             title: "Verification",
-            desc: "KYC + FUTMINNA partnership badge",
+            desc: "KYC + partnership badge",
             icon: <ShieldCheck className="h-5 w-5 text-emerald-600" />,
           },
         ]

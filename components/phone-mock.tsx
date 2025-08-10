@@ -14,7 +14,7 @@ export function PhoneMock(props: { title?: string }) {
       className="relative mx-auto aspect-[9/19] w-full max-w-[320px] rounded-[2rem] border bg-white shadow-xl overflow-hidden"
     >
       {/* Top bar */}
-      <div className="h-10 flex items-center justify-center border-b text-sm font-medium">CampSite</div>
+      <div className="h-10 flex items-center justify-center border-b text-sm font-medium">KEAgents</div>
 
       {/* Content */}
       <div className="p-3 space-y-3">

@@ -32,7 +32,7 @@ export async function POST(req: Request) {
       text: `Thanks for signing up as a ${role}. We'll be in touch soon.`,
       html: `<p>Hi there,</p>
              <p>Thanks for signing up as a <strong>${role}</strong> on our waitlist. We'll be in touch soon.</p>
-             <p>— The Team #CampSite</p>`,
+             <p>— The Team #KEAgents</p>`,
     };
 
     // Email to admin (you)

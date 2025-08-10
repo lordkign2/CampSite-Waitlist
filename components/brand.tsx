@@ -11,7 +11,7 @@ export function Brand(props: { size?: "sm" | "md" | "lg" }) {
         <Building2 className="h-4 w-4" />
       </span>
       <span className={`${textSize}`}>
-        Camp<span className="text-emerald-600">Site</span>
+        <span className="text-emerald-600">KE</span>Agents
       </span>
     </a>
   )

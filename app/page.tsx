@@ -100,7 +100,7 @@ export default function Page() {
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-neutral-600">
             {"© "}
-            {new Date().getFullYear()} CampSite. Built for Nigeria students/workers.
+            {new Date().getFullYear()} KEAgents. Built for Nigeria students/workers.
           </p>
           <nav aria-label="Footer">
             <ul className="flex gap-6 text-sm text-neutral-600">
